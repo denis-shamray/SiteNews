@@ -1,5 +1,5 @@
 """
-WSGI config for shopbox project.
+WSGI config for sitenews project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
