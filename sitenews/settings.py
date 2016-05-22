@@ -151,5 +151,7 @@ CONSOLE_WHITELIST = None
 #CONSOLE_WHITELIST = [
 #	'127.0.0.1'
 #]
-
-from settings_local import *
+try:
+    from settings_local import *
+except Exception as e:
+    print e
