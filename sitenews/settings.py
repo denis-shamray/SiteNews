@@ -34,7 +34,6 @@ STATIC_ROOT =  os.path.join(BASE_DIR, 'static_src')
 
 LOCAL_APPS = [
     'main',
-    'django-console',
 ]
 
 INSTALLED_APPS = [
